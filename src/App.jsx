@@ -9,9 +9,8 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    AOS.init({ duration: 800, once: true });
+    AOS.init({ duration: 2000, once: true });
 
-    // Sayt to‘liq yuklanganda loaderni o‘chir
     const handleLoad = () => setLoading(false);
 
     window.addEventListener("load", handleLoad);
