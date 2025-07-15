@@ -21,8 +21,10 @@ const Home = () => {
           height: "100vh",
         }}
       >
-        <div className="w-[80%] m-auto py-[130px] max-[1000px]:py-[50px]">
-          <Hero />
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <div className="w-[80%] m-auto py-[130px] max-[1000px]:py-[50px]">
+            <Hero />
+          </div>
         </div>
       </div>
     </div>
