@@ -1,5 +1,6 @@
-import Navbar from "../Components/Navbar/Navbar";
-import HeroBg from "../assets/herobg.png";
+import Navbar from "../../Components/Navbar/Navbar";
+import HeroBg from "../../assets/herobg.png";
+import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
@@ -19,7 +20,11 @@ const Home = () => {
           backgroundRepeat: "no-repeat",
           height: "100vh",
         }}
-      ></div>
+      >
+        <div className="w-[80%] m-auto py-[130px] max-[1000px]:py-[50px]">
+          <Hero />
+        </div>
+      </div>
     </div>
   );
 };

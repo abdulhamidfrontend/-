@@ -3,3 +3,12 @@
 .bg-custom-gradient {
   background: linear-gradient(to right, #020612 0%, #040b1e 60%, #0c1745 100%);
 }
+
+.btn {
+  border-radius: 8px;
+
+  background-color: #fed84c;
+  color: #2e363e;
+  font-size: 18px;
+  font-weight: 500;
+}
