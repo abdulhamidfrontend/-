@@ -36,7 +36,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`fixed top-0 right-0 bottom-0 z-50 w-[90%] max-w-sm bg-[#0a1022] text-white  shadow-2xl transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 z-50 w-[90%] max-w-sm bg-[#0a1022]  text-white  shadow-2xl transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
