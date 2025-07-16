@@ -41,7 +41,7 @@ const Navbar = () => {
         }`}
       >
         <button
-          className="absolute top-5 right-5 text-white"
+          className="absolute top-8 right-10 text-white"
           onClick={() => setIsOpen(false)}
         >
           <IoMdClose className="text-2xl" />
