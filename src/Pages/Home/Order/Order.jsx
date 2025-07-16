@@ -5,7 +5,7 @@ const Order = () => {
         <h3 className=" bg-white w-fit font-normal  text-[11px] leading-[150%] tracking-widest uppercase text-[#2e363e] rounded-[5px] py-2.5 px-4.5">
           Не нашли то что нужно?
         </h3>
-        <h1 className="max-w-[420px] max-[450px]:max-w-full max-[400px]:text-2xl max-[575px]:text-[32px] font-medium text-[48px] leading-[125%] tracking-[-0.02em]">
+        <h1 className="max-w-[481px] max-[450px]:max-w-full max-[400px]:text-2xl max-[575px]:text-[32px] font-medium text-[48px] leading-[125%] tracking-[-0.02em]">
           Приготовим заказ любой сложности по фото или эскизу
         </h1>
         <p className="max-w-[430px] max-[450px]:max-w-full font-normal max-[400px]:text-[14px] max-[575px]:text-[16px] text-[21px] leading-[143%] tracking-[-0.01em]">

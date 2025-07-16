@@ -6,6 +6,7 @@ import Products from "./Products/Products";
 import SmokeTop from "../../assets/smoketop.png";
 import SmokeBottom from "../../assets/smokebottom.png";
 import phone from "../../assets/phone.png";
+import Event from "./Event/Event";
 
 const Home = () => {
   return (
@@ -55,16 +56,17 @@ const Home = () => {
         <img
           src={phone}
           alt="phone"
-          className="absolute max-[1100px]:hidden max-[1200px]:w-[600px] w-[800px] left-0 -bottom-10 z-0 pointer-events-none"
+          className="absolute max-[1100px]:hidden max-[1200px]:w-[600px] w-[800px] left-0 -bottom-10 z-10 pointer-events-none"
         />
 
         {/* Order Content */}
-        <div className="relative py-10 w-[80%] m-auto z-10">
+        <div className="relative py-10 w-[80%] m-auto z-20">
           <Order />
         </div>
 
-        {/* Smoke Bottom */}
+        {/* Smoke Bottom — eng oldinda bo‘lishi uchun z-30 */}
         <div
+          className="relative z-30"
           style={{
             backgroundImage: `url(${SmokeBottom})`,
             backgroundSize: "cover",
@@ -73,6 +75,11 @@ const Home = () => {
             height: "330px",
           }}
         ></div>
+      </div>
+      <div className="event">
+        <div className="w-[80%] py-20 m-auto">
+          <Event />
+        </div>
       </div>
     </div>
   );
