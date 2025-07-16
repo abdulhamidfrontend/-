@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Pagination } from "antd";
-import "antd/dist/reset.css"; // Ant Design CSS
+import "antd/dist/reset.css";
 import Card1img from "../../../assets/card1.png";
 import Card2img from "../../../assets/card2.png";
 import Card3img from "../../../assets/card3.png";
@@ -82,7 +82,7 @@ const Products = () => {
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 980);
-      setCurrentPage(1); // sahifani boshqatdan boshlash
+      setCurrentPage(1);
     };
 
     window.addEventListener("resize", handleResize);
