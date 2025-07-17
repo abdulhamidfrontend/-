@@ -8,6 +8,7 @@ import SmokeBottom from "../../assets/smokebottom.png";
 import phone from "../../assets/phone.png";
 import Event from "./Event/Event";
 import Reviews from "./Reviews/Reviews";
+import Activity from "./Activity/Activity";
 
 const Home = () => {
   return (
@@ -106,6 +107,9 @@ const Home = () => {
             height: "330px",
           }}
         ></div>
+      </div>
+      <div className="activity">
+        <Activity />
       </div>
     </div>
   );

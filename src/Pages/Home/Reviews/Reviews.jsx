@@ -97,13 +97,13 @@ const Reviews = () => {
       <div className="flex gap-6 mt-6">
         <button
           onClick={handlePrev}
-          className="w-10 h-10 flex items-center justify-center bg-yellow-400 text-black rounded-full hover:bg-yellow-500 transition"
+          className="w-15 h-15 cursor-pointer  flex items-center justify-center bg-yellow-400 text-black rounded-full hover:bg-yellow-500 transition"
         >
           <FaChevronLeft />
         </button>
         <button
           onClick={handleNext}
-          className="w-10 h-10 flex items-center justify-center bg-yellow-400 text-black rounded-full hover:bg-yellow-500 transition"
+          className="w-15 h-15 cursor-pointer  flex items-center justify-center bg-yellow-400 text-black rounded-full hover:bg-yellow-500 transition"
         >
           <FaChevronRight />
         </button>
