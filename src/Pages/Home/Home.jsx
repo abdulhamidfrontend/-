@@ -7,6 +7,7 @@ import SmokeTop from "../../assets/smoketop.png";
 import SmokeBottom from "../../assets/smokebottom.png";
 import phone from "../../assets/phone.png";
 import Event from "./Event/Event";
+import Reviews from "./Reviews/Reviews";
 
 const Home = () => {
   return (
@@ -80,6 +81,31 @@ const Home = () => {
         <div className="w-[80%] py-20 m-auto">
           <Event />
         </div>
+      </div>
+      <div className="reviews bg-[#081130]">
+        <div
+          style={{
+            backgroundImage: `url(${SmokeTop})`,
+            backgroundSize: "cover",
+            backgroundPosition: "top",
+            backgroundRepeat: "no-repeat",
+            height: "330px",
+          }}
+        ></div>
+
+        <div className="w-[80%] m-auto">
+          <Reviews />
+        </div>
+        <div
+          className="relative z-30"
+          style={{
+            backgroundImage: `url(${SmokeBottom})`,
+            backgroundSize: "cover",
+            backgroundPosition: "bottom",
+            backgroundRepeat: "no-repeat",
+            height: "330px",
+          }}
+        ></div>
       </div>
     </div>
   );
