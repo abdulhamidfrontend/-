@@ -23,7 +23,7 @@ const Footer = () => {
             placeholder="Номер телефона"
           />
         </form>
-        <button className="btn py-[29px] max-[550px]:w-[90%]  max-[400px]:py-[15px]  max-[550px]:m-auto max-[530px]:text-[14px]! max-[515px]:px-[50px] px-[125px] font-medium text-[18px] leading-[152%] text-center text-[#2e363e]">
+        <button className="btn py-[29px] max-[550px]:w-[90%]  max-[400px]:py-[15px]  max-[550px]:m-auto max-[530px]:text-[12px]! max-[515px]:px-[50px] px-[125px] font-medium text-[18px] leading-[152%] text-center text-[#2e363e]">
           Сделать заказ
         </button>
       </div>

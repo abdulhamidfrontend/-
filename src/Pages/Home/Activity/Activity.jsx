@@ -24,10 +24,10 @@ const Activity = () => {
   return (
     <div>
       <div className="title max-[450px]:w-[80%] max-[450px]:m-auto text-center">
-        <h1 className="font-medium max-[1030px]:text-3xl max-[500px]:text-[18px] max-[570px]:text-[20px] max-[720px]:text-2xl text-[48px] leading-[125%] tracking-[-0.02em] text-center text-[#2e363e]">
+        <h1 className="font-medium max-[1030px]:text-3xl max-[500px]:text-[22px] max-[500px]:font-semibold! max-[570px]:text-[20px] max-[720px]:text-2xl text-[48px] leading-[125%] tracking-[-0.02em] text-center text-[#2e363e]">
           Сделали более 3.000 заказов за 2 года
         </h1>
-        <p className="font-normal max-[500px]:text-xs max-[1030px]:text-[18px]  max-[720px]:text-[14px] text-[24px] leading-[143%] text-center text-[#2e363e]">
+        <p className="font-normal  max-[1030px]:text-[18px]  max-[720px]:text-[14px] text-[24px] leading-[143%] text-center text-[#2e363e]">
           Посмотрите фото реальных заказов из нашего instagram
         </p>
       </div>
