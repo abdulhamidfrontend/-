@@ -9,6 +9,7 @@ import phone from "../../assets/phone.png";
 import Event from "./Event/Event";
 import Reviews from "./Reviews/Reviews";
 import Activity from "./Activity/Activity";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -110,6 +111,20 @@ const Home = () => {
       </div>
       <div className="activity">
         <Activity />
+      </div>
+      <div className="footer  bg-[#081130]">
+        <div
+          style={{
+            backgroundImage: `url(${SmokeTop})`,
+            backgroundSize: "cover",
+            backgroundPosition: "top",
+            backgroundRepeat: "no-repeat",
+            height: "330px",
+          }}
+        ></div>
+        <div className="w-[80%] py-20 m-auto">
+          <Footer />
+        </div>
       </div>
     </div>
   );
